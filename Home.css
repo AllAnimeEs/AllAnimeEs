@@ -85,7 +85,24 @@ display: flex;
 
 /* TRYING BOX WITH INSIDE IMAGE AND CONTAINER*/
 
-.SideImg {
+.SideImg { 
+    position: absolute;
+    top: 64px;
+    left: 16px;
+    width: 182px;
+    background: #454545;
+    box-shadow: 3px 3px 24px 6px rgb(0 0 0);
+
+}
+
+@media screen and (max-width:900px) {
+  .SideImg { 
+    display: none;
+  }
+}
+    
+ .SideImg { 
+
   position: absolute;
     top: 64px;
     left: 16px;
