@@ -167,7 +167,7 @@ display: flex;
   .image4 {
   /*display: block;*/
   width: 100%;
-  height: 206px;
+  height: 207px;
   }
 
 
@@ -212,6 +212,32 @@ display: flex;
   position: absolute;
     top: 64px;
     left: 16px;
+    width: 182px;
+    background: #454545;
+    box-shadow: 3px 3px 24px 6px rgb(0 0 0);
+
+}
+.SideImg2 { 
+    position: absolute;
+    top: 64px;
+    left: 1300px;
+    width: 182px;
+    background: #454545;
+    box-shadow: 3px 3px 24px 6px rgb(0 0 0);
+
+}
+
+@media screen and (max-width:900px) {
+  .SideImg2 { 
+    display: none;
+  }
+}
+    
+ .SideImg2 { 
+
+  position: absolute;
+    top: 64px;
+    left: 1300px;
     width: 182px;
     background: #454545;
     box-shadow: 3px 3px 24px 6px rgb(0 0 0);
