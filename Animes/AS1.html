@@ -17,7 +17,9 @@
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
-img {vertical-align: middle;}
+img {vertical-align: middle;
+    background: #454545;
+    box-shadow: 3px 3px 24px 6px rgb(0 0 0);}
 
 /* Slideshow container */
 .slideshow-container {
@@ -111,8 +113,12 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
 body {
-  background-color: #111;
+  background-color: #262424;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 ul {
   list-style-type: none;
@@ -139,8 +145,9 @@ li a:hover {
 }
 
 .active {
-  background-color: red;
+  background-color: #1a1717;
 }
+	
 
 </style>
 </head>
