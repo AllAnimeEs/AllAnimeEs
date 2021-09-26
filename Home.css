@@ -45,7 +45,7 @@ display: flex;
   .image {
   /*display: block;*/
   width: 100%;
-  height: 210px;
+
   }
 
   
@@ -82,7 +82,7 @@ display: flex;
   .image1 {
   /*display: block;*/
   width: 100%;
-  height: 210px;
+
   }
 
 
@@ -117,7 +117,7 @@ display: flex;
   .image2 {
   /*display: block;*/
   width: 100%;
-  height: 210px;
+
   }
 
 
@@ -153,7 +153,7 @@ display: flex;
   .image3 {
   /*display: block;*/
   width: 100%;
-  height: 210px;
+
   }
 
 
@@ -190,7 +190,7 @@ display: flex;
   .image4 {
   /*display: block;*/
   width: 100%;
-  height: 210px;
+
   }
 
 
@@ -224,7 +224,7 @@ display: flex;
   .image5 {
   /*display: block;*/
   width: 100%;
-  height: 210px;
+
   }
 
 
@@ -257,7 +257,7 @@ display: flex;
   .image6 {
   /*display: block;*/
   width: 100%;
-  height: 210px;
+
   }
 
 
@@ -291,7 +291,7 @@ display: flex;
   .image7 {
   /*display: block;*/
   width: 100%;
-  height: 210px;
+ 
   }
 
 
@@ -324,7 +324,7 @@ display: flex;
   .image8 {
   /*display: block;*/
   width: 100%;
-  height: 210px;
+ 
   }
 
 
@@ -415,4 +415,30 @@ display: flex;
 }
 .AllContent {
   position: relative;
+}
+.Waiting{
+  width: 500px;
+  margin-left: 500px;
+    margin-top: 150px;
+}
+.alert {
+  margin: 30px;
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
 }
